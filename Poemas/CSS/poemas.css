@@ -1,0 +1,47 @@
+/* Estlização da página toda. */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+/* Estlização do cabeçalho e rodapé. */
+header, footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #0EA6ED;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+/* Estilização do título da logo. */
+.titulo-logo{
+    font-weight: bold;
+}
+/* Estilização de todas as serções. */
+section{
+    max-width: 950px;
+    margin: 32px auto;
+    text-align: center;
+    
+}
+p{
+    line-height: 32px;
+}
+p::first-letter{
+    font-size: 24px;
+}
+p::first-line{
+    font-style: italic;
+}
+/* Estilização da 1° serção - imagem */
+h1{
+    margin: 12px;
+    font-size: 32px;
+}
+img{
+    width: 450px;
+    margin: 25px 0 0 0;
+}
